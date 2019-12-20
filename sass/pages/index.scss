@@ -1,4 +1,46 @@
 .hello {
-        color: salmon;
-        font: $font;
+        color: $main-color;
+        font-family: $fontfun;
+        font-size: 7rem;
+}
+
+.nav-link {
+        font-family: $fontlight;
+}
+
+.daddy-box {
+        display: flex;
+        justify-content: flex-end;
+        align-items: baseline;
+        flex-flow: row wrap;
+        height: 75vh;
+        background-image: url('Images/digital-illustration.png');
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-size: 100% 100%;
+        .baby-box {
+                display: flex;
+                justify-content: space-evenly;
+                background-color: rgba(255, 255, 255, 0.137);
+                margin-top: 0rem;
+                margin-bottom: 0rem;
+        }
+}
+
+.baby-box {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: black;
+        color: white;
+}
+
+.display-2 {
+        font-family: $fontcursive;
+}
+
+.container-fluid {
+        border-top-style: double;
+        border-top-color: rgba(128, 128, 128, 0.322);
+        border-top-width: 2vh;
+        margin: 0;
 }

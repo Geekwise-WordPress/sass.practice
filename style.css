@@ -1,9 +1,9 @@
 /**
- * styles.scss
+ * style.scss
  * ---
  * Main `sass` file. Import here `sass` files
  */
-@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Hind+Madurai|Julius+Sans+One|Nanum+Brush+Script|Nothing+You+Could+Do&display=swap");
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -24,8 +24,50 @@
  * Grid
  */
 .hello {
-  color: salmon;
-  font: "Nunito Sans", serif;
+  color: purple;
+  font-family: "Nanum Brush Script", cursive;
+  font-size: 7rem;
+}
+
+.nav-link {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.daddy-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  flex-flow: row wrap;
+  height: 75vh;
+  background-image: url("Images/digital-illustration.png");
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+}
+.daddy-box .baby-box {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.137);
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.baby-box {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+}
+
+.display-2 {
+  font-family: "Nothing You Could Do", cursive;
+}
+
+.container-fluid {
+  border-top-style: double;
+  border-top-color: rgba(128, 128, 128, 0.322);
+  border-top-width: 2vh;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,13 +8,16 @@
  * Typography
  */
 //Google Font Import example
- @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,800&display=swap');
- $font: 'Nunito Sans', serif;
+ @import url('https://fonts.googleapis.com/css?family=Hind+Madurai|Julius+Sans+One|Nanum+Brush+Script|Nothing+You+Could+Do&display=swap');
+ $fontfun: 'Nanum Brush Script', cursive;
+ $fontbasic:'Hind Madurai', sans-serif;
+ $fontlight: 'Julius Sans One', sans-serif;
+ $fontcursive: 'Nothing You Could Do', cursive;
  
 /**
  * Colors
  */
-
+$main-color: purple;
 
 /**
  * Grid
